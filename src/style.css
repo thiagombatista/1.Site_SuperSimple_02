@@ -1,0 +1,102 @@
+body {
+    background-color: #f3f3f3;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+}
+
+a {
+    padding: 3px;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: green;
+}
+
+#nav_bar {
+    background-color: white;
+    border-bottom: 1px solid gray;
+    min-height: 42px;
+}
+
+#nav_content {
+    width: 900px;
+    margin: auto;
+}
+
+#logo {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+#menu {
+    margin: 5px;
+    padding: 5px;
+    float: right;
+}
+
+#posts_area {
+    width: 900px;
+    margin: auto;
+    padding: 3px;
+}
+
+.green, .news_title {
+    color: green;
+}
+
+.news {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.news_title {
+    padding: 5px;
+
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+
+.posted_date {
+    padding: 5px;
+
+    display: block;
+    font-size: 13px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+    border-bottom: 1px solid gray;
+}
+
+.news_photo {
+    padding: 5px;
+    float: left;
+}
+
+.news_posted_by {
+    padding-left: 5px;
+    border-left: 3px solid green;
+    border-radius: 3px;
+
+    
+    display: block;
+    font-size: 13px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+}
